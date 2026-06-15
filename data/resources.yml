@@ -1,0 +1,900 @@
+---
+metadata:
+  name: Awesome Quran AI
+  maintainer:
+    name: Mhammed Talhaouy
+    github: tal7aouy
+categories:
+- id: apis
+  name: APIs
+  resources:
+  - name: Quran.com API
+    url: https://api-docs.quran.com/
+    description: Public API for Quran.com content, including verses, chapters, translations, tafsir metadata, audio, and related Quran resources.
+    tags:
+    - quran
+    - api
+    - audio
+    - tafsir
+    - translation
+    license: verify
+  - name: Al Quran Cloud API
+    url: https://alquran.cloud/api
+    description: REST API for Quran text, editions, translations, audio, juz, surah, ayah, and search endpoints.
+    tags:
+    - quran
+    - api
+    - audio
+    - translation
+    - search
+    license: verify
+  - name: QuranEnc API
+    url: https://quranenc.com/en/home/api/
+    description: API for Quran translations and meanings published by the Quran Encyclopedia project.
+    tags:
+    - quran
+    - api
+    - translation
+    license: verify
+  - name: EveryAyah
+    url: https://everyayah.com/
+    description: Quran audio archive and recitation file endpoints commonly used by Quran applications.
+    tags:
+    - quran
+    - api
+    - audio
+    license: verify
+  - name: Tanzil Quran Text
+    url: https://tanzil.net/download/
+    description: Downloadable verified Quran text data with multiple text formats and metadata.
+    tags:
+    - quran
+    - api
+    license: verify
+  - name: Quran Foundation API Docs
+    url: https://github.com/quran/qf-api-docs
+    description: Documentation portal for Quran Foundation API resources.
+    tags:
+    - quran
+    - api
+    license: verify
+  - name: Quran Foundation JS SDK
+    url: https://github.com/quran/api-js
+    description: Official TypeScript/JavaScript SDK for Quran Foundation APIs.
+    tags:
+    - quran
+    - api
+    license: verify
+  - name: fawazahmed0/quran-api
+    url: https://github.com/fawazahmed0/quran-api
+    description: Free Quran API with many translations and language editions.
+    tags:
+    - quran
+    - api
+    - translation
+    license: verify
+  - name: The Quran Project API
+    url: https://github.com/The-Quran-Project/Quran-API
+    description: Open Quran API with no advertised rate limit.
+    tags:
+    - quran
+    - api
+    license: verify
+  - name: Tafsir API
+    url: https://github.com/spa5k/tafsir_api
+    description: API service for tafsir resources in multiple languages.
+    tags:
+    - quran
+    - api
+    - tafsir
+    license: verify
+  - name: Alfanous
+    url: https://github.com/Alfanous-team/alfanous
+    description: Arabic Quran search engine and API with simple and advanced search.
+    tags:
+    - quran
+    - api
+    - search
+    - arabic
+    license: verify
+  - name: gadingnst/quran-api
+    url: https://github.com/gadingnst/quran-api
+    description: Quran API and database with Indonesian tafsir and recitation audio.
+    tags:
+    - quran
+    - api
+    - dataset
+    - audio
+    - tafsir
+    license: verify
+  - name: renomureza/quran-api-id
+    url: https://github.com/renomureza/quran-api-id
+    description: Indonesian Quran REST API with translations, tafsir, and audio.
+    tags:
+    - quran
+    - api
+    - audio
+    - tafsir
+    - translation
+    license: verify
+  - name: bachors/Al-Quran-ID-API
+    url: https://github.com/bachors/Al-Quran-ID-API
+    description: Indonesian Quran API with translation and audio.
+    tags:
+    - quran
+    - api
+    - audio
+    - translation
+    license: verify
+  - name: GlobalQuran
+    url: https://github.com/GlobalQuran/site
+    description: GlobalQuran API-driven Quran site code and data access patterns.
+    tags:
+    - quran
+    - api
+    license: verify
+- id: datasets
+  name: Datasets
+  resources:
+  - name: Quranic Arabic Corpus
+    url: https://corpus.quran.com/
+    description: Morphological, syntactic, and semantic annotation for Quranic Arabic.
+    tags:
+    - quran
+    - dataset
+    - arabic
+    license: verify
+  - name: Tanzil Quran Text
+    url: https://tanzil.net/download/
+    description: Verified Uthmani and simple Quran text files with verse numbering and metadata.
+    tags:
+    - quran
+    - dataset
+    - arabic
+    license: verify
+  - name: QuranMorph
+    url: https://sina.birzeit.edu/quran
+    description: Open Quranic morphology corpus from SinaLab with lemma and part-of-speech annotations.
+    tags:
+    - quran
+    - dataset
+    - audio
+    license: verify
+  - name: Quran-MD
+    url: https://huggingface.co/datasets/Buraaq/quran-audio-text-dataset
+    description: Multilingual multimodal Quran dataset with text, transliteration, translations, and verse/word-level audio.
+    tags:
+    - quran
+    - dataset
+    - audio
+    - translation
+    license: verify
+  - name: Tadabur Quran Audio Dataset
+    url: https://arxiv.org/abs/2604.18932
+    description: Large-scale Quran recitation audio dataset paper describing 1400+ hours from 600+ reciters.
+    tags:
+    - quran
+    - dataset
+    - paper
+    - audio
+    license: verify
+  - name: Quranic Audio Dataset
+    url: https://arxiv.org/abs/2405.02675
+    description: Crowdsourced and labeled Quran recitation dataset focused on non-Arabic speakers.
+    tags:
+    - quran
+    - dataset
+    - paper
+    - audio
+    - arabic
+    license: verify
+  - name: Corpus Coranicum
+    url: https://corpuscoranicum.de/
+    description: Research databases for Quran manuscripts, variant readings, and historical context.
+    tags:
+    - quran
+    - dataset
+    - search
+    license: verify
+  - name: Tarteel Quranic Universal Library
+    url: https://github.com/TarteelAI/quranic-universal-library
+    description: Comprehensive Quran resource collection from Tarteel AI.
+    tags:
+    - quran
+    - dataset
+    license: verify
+  - name: AbdullahGhanem/quran-database
+    url: https://github.com/AbdullahGhanem/quran-database
+    description: Quran MySQL database repository.
+    tags:
+    - quran
+    - dataset
+    license: verify
+  - name: semarketir/quranjson
+    url: https://github.com/semarketir/quranjson
+    description: Quran JSON dataset with 6236 verses, 114 surahs, and 30 juz.
+    tags:
+    - quran
+    - dataset
+    license: verify
+  - name: risan/quran-json
+    url: https://github.com/risan/quran-json
+    description: Quran text and translations in JSON format.
+    tags:
+    - quran
+    - dataset
+    - translation
+    license: verify
+  - name: rioastamal/quran-json
+    url: https://github.com/rioastamal/quran-json
+    description: Quran, translation, and Indonesian tafsir in JSON format.
+    tags:
+    - quran
+    - dataset
+    - tafsir
+    - translation
+    license: verify
+  - name: rn0x/Quran-Data
+    url: https://github.com/rn0x/Quran-Data
+    description: Quran databases in JSON, CSV, SQLite, and API formats.
+    tags:
+    - quran
+    - api
+    - dataset
+    license: verify
+  - name: aliftype/quran-data
+    url: https://github.com/aliftype/quran-data
+    description: Unicode-encoded Quran data.
+    tags:
+    - quran
+    - dataset
+    license: verify
+  - name: quran/quran.com-images
+    url: https://github.com/quran/quran.com-images
+    description: Quran page image generation using King Fahd Complex fonts.
+    tags:
+    - quran
+    - dataset
+    license: verify
+  - name: batoulapps/quran-svg
+    url: https://github.com/batoulapps/quran-svg
+    description: SVG files for Quran pages.
+    tags:
+    - quran
+    - dataset
+    license: verify
+  - name: NoorBayan/Quranic
+    url: https://github.com/NoorBayan/Quranic
+    description: Quran text processing dataset and Quranic treebank work.
+    tags:
+    - quran
+    - dataset
+    license: verify
+  - name: islamAndAi/QURAN-NLP
+    url: https://github.com/islamAndAi/QURAN-NLP
+    description: Quran, hadith, translations, tafsir, and corpus linguistics resources for NLP.
+    tags:
+    - quran
+    - dataset
+    - tafsir
+    - translation
+    license: verify
+  - name: tarteel-ai/quranqa
+    url: https://huggingface.co/datasets/tarteel-ai/quranqa
+    description: Expert-generated Quran question answering dataset.
+    tags:
+    - quran
+    - dataset
+    license: verify
+  - name: tarteel-ai/quran-tafsir
+    url: https://huggingface.co/datasets/tarteel-ai/quran-tafsir
+    description: Tafsir dataset hosted by Tarteel AI.
+    tags:
+    - quran
+    - dataset
+    - tafsir
+    license: verify
+  - name: hetchyy/quranic-universal-ayahs
+    url: https://huggingface.co/datasets/hetchyy/quranic-universal-ayahs
+    description: Quranic ayah dataset for speech and text tasks.
+    tags:
+    - quran
+    - dataset
+    - audio
+    license: verify
+  - name: ashraf-ali/quran-data
+    url: https://huggingface.co/datasets/ashraf-ali/quran-data
+    description: Quran audio/text dataset sourced from Tarteel.io.
+    tags:
+    - quran
+    - dataset
+    - audio
+    license: verify
+  - name: riotu-lab/Quran-Tafseers
+    url: https://huggingface.co/datasets/riotu-lab/Quran-Tafseers
+    description: Arabic Quran tafsir dataset.
+    tags:
+    - quran
+    - dataset
+    - tafsir
+    - arabic
+    license: verify
+  - name: nazimali/quran-question-answer-context
+    url: https://huggingface.co/datasets/nazimali/quran-question-answer-context
+    description: Arabic/English Quran question-answer-context dataset.
+    tags:
+    - quran
+    - dataset
+    - arabic
+    license: verify
+  - name: ImruQays/Quran-Classical-Arabic-English-Parallel-texts
+    url: https://huggingface.co/datasets/ImruQays/Quran-Classical-Arabic-English-Parallel-texts
+    description: Classical Arabic and English Quran parallel texts.
+    tags:
+    - quran
+    - dataset
+    - arabic
+    license: verify
+  - name: ahishamm/QURANICWhisperDataset
+    url: https://huggingface.co/datasets/ahishamm/QURANICWhisperDataset
+    description: Audio/text dataset for Quran ASR experiments.
+    tags:
+    - quran
+    - dataset
+    - model
+    - audio
+    license: verify
+  - name: sobolev210/quran-recitation-errors
+    url: https://huggingface.co/datasets/sobolev210/quran-recitation-errors
+    description: Quran recitation error audio dataset.
+    tags:
+    - quran
+    - dataset
+    - audio
+    license: verify
+  - name: RetaSy/quranic_audio_dataset
+    url: https://huggingface.co/datasets/RetaSy/quranic_audio_dataset
+    description: Quranic audio dataset for ASR and audio classification.
+    tags:
+    - quran
+    - dataset
+    - audio
+    license: verify
+- id: models
+  name: Models
+  resources:
+  - name: Jais
+    url: https://huggingface.co/core42
+    description: Open Arabic-English language models useful for Arabic NLP and Quran-adjacent experimentation.
+    tags:
+    - quran
+    - model
+    - arabic
+    license: verify
+  - name: AraBERT
+    url: https://github.com/aub-mind/arabert
+    description: Arabic BERT models and preprocessing tools for Arabic NLP tasks.
+    tags:
+    - quran
+    - model
+    - tool
+    - arabic
+    license: verify
+  - name: CAMeLBERT
+    url: https://github.com/CAMeL-Lab/CAMeLBERT
+    description: Arabic pretrained language models from CAMeL Lab.
+    tags:
+    - quran
+    - model
+    - arabic
+    license: verify
+  - name: AraBART
+    url: https://huggingface.co/moussaKam/AraBART
+    description: Arabic sequence-to-sequence model for generation and summarization tasks.
+    tags:
+    - quran
+    - model
+    - arabic
+    license: verify
+  - name: Whisper
+    url: https://github.com/openai/whisper
+    description: Open-source speech recognition models often used as a baseline for Quran recitation transcription experiments.
+    tags:
+    - quran
+    - model
+    - audio
+    license: verify
+  - name: tarteel-ai/whisper-base-ar-quran
+    url: https://huggingface.co/tarteel-ai/whisper-base-ar-quran
+    description: Whisper model fine-tuned for Arabic Quran recitation ASR.
+    tags:
+    - quran
+    - model
+    - audio
+    - arabic
+    license: verify
+  - name: tarteel-ai/whisper-tiny-ar-quran
+    url: https://huggingface.co/tarteel-ai/whisper-tiny-ar-quran
+    description: Smaller Whisper model fine-tuned for Quran recitation ASR.
+    tags:
+    - quran
+    - model
+    - audio
+    license: verify
+  - name: mohammed/fastconformer-quran-ar
+    url: https://huggingface.co/mohammed/fastconformer-quran-ar
+    description: FastConformer Quran Arabic ASR model.
+    tags:
+    - quran
+    - model
+    - audio
+    - arabic
+    license: verify
+  - name: Muno459/fastconformer-quran
+    url: https://huggingface.co/Muno459/fastconformer-quran
+    description: ONNX-oriented FastConformer model for Quranic recitation.
+    tags:
+    - quran
+    - model
+    - audio
+    license: verify
+  - name: Muno459/fastconformer-quran-streaming
+    url: https://huggingface.co/Muno459/fastconformer-quran-streaming
+    description: Streaming FastConformer Quran ASR model.
+    tags:
+    - quran
+    - model
+    - audio
+    license: verify
+  - name: Nuwaisir/Quran_speech_recognizer
+    url: https://huggingface.co/Nuwaisir/Quran_speech_recognizer
+    description: Wav2Vec2 Quran speech recognition model.
+    tags:
+    - quran
+    - model
+    - audio
+    license: verify
+  - name: mustapha/QuranExe-bert
+    url: https://huggingface.co/mustapha/QuranExe-bert
+    description: BERT model trained for Quran-related masked language modeling.
+    tags:
+    - quran
+    - model
+    license: verify
+  - name: mustapha/e5-small-Quran
+    url: https://huggingface.co/mustapha/e5-small-Quran
+    description: Quran-focused E5 embedding model.
+    tags:
+    - quran
+    - model
+    license: verify
+  - name: Damith/AraELECTRA-discriminator-QuranQA
+    url: https://huggingface.co/Damith/AraELECTRA-discriminator-QuranQA
+    description: AraELECTRA model for Quran question answering.
+    tags:
+    - quran
+    - model
+    license: verify
+  - name: hemagamal/mdeberta_quran_qa_model
+    url: https://huggingface.co/hemagamal/mdeberta_quran_qa_model
+    description: mDeBERTa Quran question-answering model.
+    tags:
+    - quran
+    - model
+    license: verify
+- id: tools
+  name: Tools
+  resources:
+  - name: Quranic Arabic Corpus Search
+    url: https://corpus.quran.com/search.jsp
+    description: Morphology-aware search over Quranic Arabic.
+    tags:
+    - quran
+    - dataset
+    - tool
+    - search
+    - arabic
+    license: verify
+  - name: Tanzil Quran Navigator
+    url: https://tanzil.net/
+    description: Web Quran browser with translations, recitations, and downloadable text resources.
+    tags:
+    - quran
+    - tool
+    - audio
+    - translation
+    license: verify
+  - name: Quran.com
+    url: https://quran.com/
+    description: Quran reading, translation, tafsir, audio, and search platform.
+    tags:
+    - quran
+    - tool
+    - audio
+    - tafsir
+    - translation
+    - search
+    license: verify
+  - name: Zekr
+    url: https://sourceforge.net/projects/zekr/
+    description: Open-source desktop Quran study application.
+    tags:
+    - quran
+    - tool
+    license: verify
+  - name: quran.com-frontend-next
+    url: https://github.com/quran/quran.com-frontend-next
+    description: Quran.com frontend codebase for studying production Quran UX patterns.
+    tags:
+    - quran
+    - tool
+    license: verify
+  - name: PyQuran
+    url: https://github.com/hci-lab/PyQuran
+    description: Python package for Quranic text analysis.
+    tags:
+    - quran
+    - tool
+    license: verify
+  - name: CAMeL Tools
+    url: https://github.com/CAMeL-Lab/camel_tools
+    description: Arabic NLP toolkit for preprocessing, morphology, dialect identification, and NER.
+    tags:
+    - quran
+    - tool
+    - arabic
+    license: verify
+  - name: quran-validator
+    url: https://github.com/yazinsai/quran-validator
+    description: Tool for validating Quranic verses in LLM-generated text.
+    tags:
+    - quran
+    - tool
+    license: verify
+  - name: offline-tarteel
+    url: https://github.com/yazinsai/offline-tarteel
+    description: Offline Quran verse recognition from recitation audio.
+    tags:
+    - quran
+    - tool
+    - audio
+    license: verify
+  - name: quran-align
+    url: https://github.com/cpfair/quran-align
+    description: Word-accurate timestamps for Quranic audio.
+    tags:
+    - quran
+    - tool
+    - audio
+    license: verify
+  - name: quran-tajweed
+    url: https://github.com/cpfair/quran-tajweed
+    description: Tajweed annotation tooling for the Quran.
+    tags:
+    - quran
+    - tool
+    license: verify
+  - name: QuranCaption
+    url: https://github.com/zonetecde/QuranCaption
+    description: Tool for generating captioned videos from Quranic recitation.
+    tags:
+    - quran
+    - tool
+    - audio
+    license: verify
+  - name: quran-cli
+    url: https://github.com/sarfraznawaz2005/quran-cli
+    description: Command-line Quran reader and reciter with English translation.
+    tags:
+    - quran
+    - tool
+    - translation
+    license: verify
+  - name: Quran-cli
+    url: https://github.com/Mostafa-wael/Quran-cli
+    description: Command-line interface for listening to Quran.
+    tags:
+    - quran
+    - tool
+    license: verify
+  - name: quran-mcp
+    url: https://github.com/quran/quran-mcp
+    description: Quran.com MCP server for connecting Quran resources to AI agents.
+    tags:
+    - quran
+    - tool
+    license: verify
+  - name: open-hikmah
+    url: https://github.com/Nazm-AI/open-hikmah
+    description: AI-powered Quran knowledge graph and thematic exploration project.
+    tags:
+    - quran
+    - tool
+    license: verify
+  - name: qurananalysis
+    url: https://github.com/karimouda/qurananalysis
+    description: Quran search, exploration, analysis, and question-answering system.
+    tags:
+    - quran
+    - tool
+    - search
+    license: verify
+- id: papers
+  name: Papers
+  resources:
+  - name: 'QuranMorph: Morphologically Annotated Quranic Corpus'
+    url: https://arxiv.org/abs/2506.18148
+    description: Corpus paper describing manually verified lemmas and part-of-speech tags for Quranic Arabic.
+    tags:
+    - quran
+    - dataset
+    - paper
+    - audio
+    - arabic
+    license: verify
+  - name: 'Quran-MD: A Fine-Grained Multilingual Multimodal Dataset of the Quran'
+    url: https://arxiv.org/abs/2601.17880
+    description: Dataset paper for verse- and word-level Quran text/audio resources.
+    tags:
+    - quran
+    - dataset
+    - paper
+    - audio
+    license: verify
+  - name: 'Tadabur: A Large-Scale Quran Audio Dataset'
+    url: https://arxiv.org/abs/2604.18932
+    description: Quran audio dataset paper covering scale, reciter diversity, and speech research use cases.
+    tags:
+    - quran
+    - dataset
+    - paper
+    - audio
+    - search
+    license: verify
+  - name: 'Quranic Audio Dataset: Crowdsourced and Labeled Recitation from Non-Arabic Speakers'
+    url: https://arxiv.org/abs/2405.02675
+    description: Paper on crowdsourcing and annotating Quran recitation data.
+    tags:
+    - quran
+    - dataset
+    - paper
+    - audio
+    - arabic
+    license: verify
+  - name: 'Quranic Conversations: Developing a Semantic Search tool for the Quran using Arabic NLP Techniques'
+    url: https://arxiv.org/abs/2311.05120
+    description: Semantic Quran search paper using tafsir embeddings and Arabic NLP models.
+    tags:
+    - quran
+    - model
+    - tool
+    - paper
+    - tafsir
+    - search
+    - arabic
+    license: verify
+  - name: Supervised Collaboration for Syntactic Annotation of Quranic Arabic
+    url: https://link.springer.com/article/10.1007/s10579-011-9167-7
+    description: Foundational paper related to the Quranic Arabic Corpus.
+    tags:
+    - quran
+    - dataset
+    - paper
+    - arabic
+    license: verify
+  - name: Smartajweed Automatic Recognition of Arabic Quranic Recitation Rules
+    url: https://arxiv.org/abs/2101.04200
+    description: Tajweed rule recognition system using classical machine learning techniques.
+    tags:
+    - quran
+    - paper
+    - audio
+    - arabic
+    license: verify
+  - name: A computational system to handle the orthographic layer of tajwid in contemporary Quranic Orthography
+    url: https://arxiv.org/abs/2505.11379
+    description: Python-module-based work on adding and removing tajwid orthographic layers.
+    tags:
+    - quran
+    - paper
+    license: verify
+  - name: A Critical Review of the Need for Knowledge-Centric Evaluation of Quranic Recitation
+    url: https://arxiv.org/abs/2510.12858
+    description: Review of automated Quranic recitation evaluation and knowledge-centric approaches.
+    tags:
+    - quran
+    - paper
+    - audio
+    license: verify
+- id: open-source-projects
+  name: Open-source Projects
+  resources:
+  - name: quran.com-frontend-next
+    url: https://github.com/quran/quran.com-frontend-next
+    description: Next.js frontend for Quran.com.
+    tags:
+    - quran
+    - open-source
+    license: verify
+  - name: qf-api-docs
+    url: https://github.com/quran/qf-api-docs
+    description: Quran Foundation API documentation repository.
+    tags:
+    - quran
+    - api
+    - open-source
+    license: verify
+  - name: AraBERT
+    url: https://github.com/aub-mind/arabert
+    description: Arabic pretrained transformer models and utilities.
+    tags:
+    - quran
+    - model
+    - arabic
+    - open-source
+    license: verify
+  - name: CAMeL Tools
+    url: https://github.com/CAMeL-Lab/camel_tools
+    description: Arabic NLP toolkit for preprocessing, morphology, dialect identification, named entity recognition, and more.
+    tags:
+    - quran
+    - tool
+    - arabic
+    - open-source
+    license: verify
+  - name: Zekr
+    url: https://sourceforge.net/projects/zekr/
+    description: Open-source Quran study desktop application.
+    tags:
+    - quran
+    - open-source
+    license: verify
+  - name: Quran Android
+    url: https://github.com/quran/quran_android
+    description: Open-source Quran app for Android.
+    tags:
+    - quran
+    - mobile
+    - open-source
+    license: verify
+  - name: quran-ios
+    url: https://github.com/quran/quran-ios
+    description: QuranEngine and iOS code powering Quran.com mobile experiences.
+    tags:
+    - quran
+    - mobile
+    - open-source
+    license: verify
+  - name: audio.quran.com
+    url: https://github.com/quran/audio.quran.com
+    description: QuranicAudio.com web application.
+    tags:
+    - quran
+    - audio
+    - open-source
+    license: verify
+  - name: quranicaudio-app
+    url: https://github.com/quran/quranicaudio-app
+    description: Mobile application for QuranicAudio.com.
+    tags:
+    - quran
+    - audio
+    - mobile
+    - open-source
+    license: verify
+  - name: baca-quran.id
+    url: https://github.com/mazipan/baca-quran.id
+    description: Ad-free Quran reading web app.
+    tags:
+    - quran
+    - open-source
+    license: verify
+  - name: the-holy-quran-app
+    url: https://github.com/mhmzdev/the-holy-quran-app
+    description: Flutter Quran application.
+    tags:
+    - quran
+    - mobile
+    - open-source
+    license: verify
+  - name: QuranApp
+    url: https://github.com/AlfaazPlus/QuranApp
+    description: Privacy-focused Android Quran app.
+    tags:
+    - quran
+    - mobile
+    - open-source
+    license: verify
+  - name: Quran-Flutter
+    url: https://github.com/SadaqaWorks/Quran-Flutter
+    description: Flutter Quran app for multiple platforms.
+    tags:
+    - quran
+    - mobile
+    - open-source
+    license: verify
+  - name: QuranyApp
+    url: https://github.com/MahmoudMabrok/QuranyApp
+    description: Android Quran app with reading, listening, tafsir, and tests.
+    tags:
+    - quran
+    - tafsir
+    - mobile
+    - open-source
+    license: verify
+  - name: quran-companion
+    url: https://github.com/0xzer0x/quran-companion
+    description: Desktop Quran reader and player.
+    tags:
+    - quran
+    - open-source
+    license: verify
+  - name: Qawl
+    url: https://github.com/sufone/qawl
+    description: Quran reader for Linux, Windows, and macOS.
+    tags:
+    - quran
+    - open-source
+    license: verify
+  - name: NoorUlHuda
+    url: https://github.com/mirfatif/NoorUlHuda
+    description: Open-source Quran reader app.
+    tags:
+    - quran
+    - open-source
+    license: verify
+  - name: Word-By-Word-Quran-Android
+    url: https://github.com/SadaqaWorks/Word-By-Word-Quran-Android
+    description: Android app with word-by-word Quran support.
+    tags:
+    - quran
+    - mobile
+    - open-source
+    license: verify
+  - name: QuranOnAndroid
+    url: https://github.com/hussien89aa/QuranOnAndroid
+    description: Open-source Android Quran listening app.
+    tags:
+    - quran
+    - mobile
+    - open-source
+    license: verify
+  - name: quran-web
+    url: https://github.com/rioastamal/quran-web
+    description: Mobile web Quran built on quran-json.
+    tags:
+    - quran
+    - mobile
+    - open-source
+    license: verify
+  - name: quranwbw
+    url: https://github.com/marwan/quranwbw
+    description: Word-by-word Quran reading and learning app.
+    tags:
+    - quran
+    - open-source
+    license: verify
+  - name: Real-Time Quran recitation tracker System
+    url: https://github.com/yayaiu6/Real-Time-Quran-recitation-tracker-System
+    description: Real-time Quran recitation tracking, alignment, and error-detection project.
+    tags:
+    - quran
+    - audio
+    - open-source
+    license: verify
+  - name: quran-muaalem
+    url: https://github.com/obadx/quran-muaalem
+    description: AI teacher for Quran learning.
+    tags:
+    - quran
+    - open-source
+    license: verify
+  - name: Mishkat
+    url: https://github.com/NoorBayan/Mishkat
+    description: AI-driven multilingual Quran audio translation and explanation project.
+    tags:
+    - quran
+    - audio
+    - translation
+    - open-source
+    license: verify
