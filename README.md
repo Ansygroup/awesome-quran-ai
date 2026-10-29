@@ -102,6 +102,7 @@ Maintained by [Mhammed Talhaouy](https://github.com/tal7aouy).
 - [quran-mcp](https://github.com/quran/quran-mcp) - Quran.com MCP server for connecting Quran resources to AI agents.
 - [open-hikmah](https://github.com/Nazm-AI/open-hikmah) - AI-powered Quran knowledge graph and thematic exploration project.
 - [qurananalysis](https://github.com/karimouda/qurananalysis) - Quran search, exploration, analysis, and question-answering system.
+- [Quran Reels MCP](https://quran-reels-tau.vercel.app/developers/mcp/) - Hosted MCP server for creating vertical Quran videos: verse selection with word-by-word timing, 47 reciters (audio from EveryAyah), 8 in-video translation languages. No API key required.
 
 ## Papers
 
