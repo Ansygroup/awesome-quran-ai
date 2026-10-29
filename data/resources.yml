@@ -619,6 +619,16 @@ categories:
     - tool
     - search
     license: verify
+  - name: Quran Reels MCP
+    url: https://quran-reels-tau.vercel.app/developers/mcp/
+    description: Hosted MCP server for creating vertical Quran videos with verse selection, word-by-word timing, 47 reciters, and 8 in-video translation languages. Quran audio sourced from EveryAyah.
+    tags:
+    - quran
+    - mcp
+    - video
+    - recitation
+    - translation
+    license: verify
 - id: papers
   name: Papers
   resources:
